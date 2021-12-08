@@ -1,0 +1,1 @@
+powershell.exe -command "Get-AppxPackage";"Get-AppxPackage | Select-Object Name";"Get-AppxPackage *Microsoft.WindowsStore* | Remove-AppxPackage"
